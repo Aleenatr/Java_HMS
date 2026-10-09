@@ -1,0 +1,8 @@
+# Copy this file to db.properties (in the folder you run the app from) and put in your MySQL login.
+# db.properties is listed in .gitignore, so the password never ends up on GitHub.
+# Environment variables HMS_DB_URL, HMS_DB_USER and HMS_DB_PASSWORD override these values.
+
+# createDatabaseIfNotExist=true lets the app create the "hms" database on first run.
+db.url=jdbc:mysql://localhost:3306/hms?createDatabaseIfNotExist=true
+db.user=root
+db.password=
